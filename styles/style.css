@@ -69,7 +69,7 @@ h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 100px;
-    line-height: 115%; 
+    line-height: 115%;
     text-transform: uppercase;
     letter-spacing: 0.8cm;
     color: #FFFFFF;
@@ -100,7 +100,7 @@ span {
     display: block;
 }
 
-.description, h1 { 
+.description, h1 {
     position: relative;
     z-index: 2;
 }
@@ -110,8 +110,8 @@ span {
     grid-template-columns: 2.5fr 1fr;
     font-style: normal;
     font-weight: 400;
-    font-size: 22px; 
-    color: #FFFFFF; 
+    font-size: 22px;
+    color: #FFFFFF;
     text-transform: uppercase;
     margin-left: 50px;
     margin-right: 50px;
@@ -123,7 +123,7 @@ button {
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     text-transform: uppercase;
     background: none;
     border: 1px solid #FFFFFF;
@@ -170,12 +170,8 @@ h2 {
 .cards li {
     position: relative;
     z-index: 2;
-}
-
-.cards li {
-    
     padding: 48px 40px;
-    display: grid;
+    display: grid; 
 }
 
 .cards a {
@@ -197,10 +193,9 @@ h2 {
 }
 
 p {
-    word-spacing: 10px;
     align-self: center;
     font-size: 22px;
-    word-spacing: 18.5px;
+    word-spacing: 18px;
 }
 
 .film-img {
@@ -269,7 +264,6 @@ h3 {
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
-    width: 745px;
     gap: 23px;
     display: flex;
     flex-direction: column;
@@ -289,14 +283,13 @@ footer {
     padding-left: 50px;
     padding-right: 50px;
     height: 180px;
-
 }
 
 .footer-address {
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    width: 250px; 
+    width: 250px;
     line-height: 1.3;
     font-weight: 400;
     font-size: 18px;
@@ -310,6 +303,8 @@ footer {
 .footer-menu {
     list-style-type: none;
     place-items: center;
+    font-size: 18px;
+    margin-top: 5px;
 }
 
 .links-to-socials {
@@ -324,9 +319,4 @@ footer {
 .links-to-socials img {
     width: 45px;
     height: 45px;
-}
-
-.footer-menu {
-    font-size: 18px;
-    margin-top: 5px;
 }
