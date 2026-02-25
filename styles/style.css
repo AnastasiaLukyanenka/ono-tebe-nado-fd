@@ -50,12 +50,6 @@ footer a {
   justify-content: end;
 }
 
-.footer-address {
-  width: 250px;
-  font-weight: 400;
-  padding-top: 4px;
-}
-
 .header__link_active,
 .footer__link_active {
   text-decoration: none;
@@ -98,6 +92,7 @@ h1 {
 
 h1 span {
   line-height: 130px;
+  display: block;
 }
 
 .aligned-text_left {
@@ -112,10 +107,6 @@ h1 span {
 .aligned-text_right {
   text-align: end;
   margin-right: -0.3em;
-}
-
-h1 span {
-  display: block;
 }
 
 .description,
