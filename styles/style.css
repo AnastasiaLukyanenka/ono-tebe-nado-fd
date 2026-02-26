@@ -28,7 +28,7 @@ footer a {
 .header__links-list {
   display: flex;
   gap: 33px;
-  list-style-type: circle;
+  list-style: circle;
   font-size: 18px;
 }
 
@@ -53,7 +53,11 @@ footer a {
 .header__link_active,
 .footer__link_active {
   text-decoration: none;
-  list-style-type: none;
+  list-style: none;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
 }
 
 .cover {
@@ -166,7 +170,6 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
   list-style-type: none;
-  min-height: 596px;
   margin-bottom: 35px;
   position: relative;
 }
@@ -190,7 +193,7 @@ h1 {
   color: #ffffff;
 }
 
-.cards li a {
+.card-text {
   text-decoration: none;
 }
 
@@ -202,7 +205,7 @@ h1 {
   z-index: 2;
 }
 
-.cards a h3 {
+.card-title {
   display: inline-block;
   line-height: 120%;
   font-weight: 700;
@@ -297,6 +300,7 @@ h1 {
   align-items: start;
   padding-left: 50px;
   padding-right: 50px;
+  margin-bottom: 82px;
 }
 
 .footer-address {
